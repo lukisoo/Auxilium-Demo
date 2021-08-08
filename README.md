@@ -9,3 +9,5 @@ The lack of a beginner-friendly developer community is an issue, and one that ou
 # Tech Stack
 We created our site using React and Firebase for our login system + our Q&A feature, however most of the firebase has been removed from this public repo to prevent any accidental charges. Please do note I ended up learning react in the middle of this hackathon, so the code is, well, very ugly.
 
+# Installation
+TBC
