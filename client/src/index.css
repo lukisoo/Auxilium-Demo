@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bigTitle {
+  height: 20vh;
+  background-color: #3f3e3e;
+  color: white;
+  margin-top: 15%;
+  position: relative;
+  text-align: center;
+}
+
+.bigTitleText {
+  font-size: 5rem;
+  line-height: 20vh;
+  margin-left: 5%;
+}
+
+.searchBarModel {
+  position: relative;
+  background-color: #242423;
+  height: 7vh;
+  width: 50vw;
+  margin: auto;
+  border: solid #dbdbdb;
+  border-width: 3.5px;
+  border-radius: 20px;
+}
+
+.smallBarModel1 {
+  margin-top: 2vh;
+  position: relative;
+  left: 32vw;
+  height: 5vh;
+  width: 15vw;
+  border: solid #f5cb5c;
+  border-width: 3.5px;
+  border-radius: 20px;
+  color: #f5cb5c;
+}
+
+.smallBarModel2 {
+  margin-top: 2vh;
+  position: relative;
+  right: 32vw;
+  background-color: #f5cb5c;
+  height: 5vh;
+  width: 15vw;
+  border: solid #f5cb5c;
+  border-width: 3.5px;
+  border-radius: 20px;
+}
+
+.userBoxes {
+  width: 40%;
+
+  background-color: #3F3E3E;
+  padding-top: 5vh;
+  border: solid #cfdbd5;
+  border-width: 3.5px;
+  border-radius: 20px;
+  padding-bottom: 5vh;
+  color: #cfdbd5;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mainNavBar {
+  background-color: #7CBBBB;
+  height: 100vh;
+  width: 100%;
+}
+
+.mainNavLinks {
+  padding: 6%;
+}
+
+.mainNavLinks h2{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.mainNavLinks h3 {
+  color: #333533;
+  font-size: 1.2rem;
+  margin: 5%;
+  text-align: center;
+}
+
+.mainNavLinks li {
+  color: #105058;
+}
+
+hr {
+  border-top: 2px dotted #333533 !important;
+  width: 80% !important;
+}
+
+.tags {
+  height: 4vh;
+  width: 8vw;
+  border: solid #cfdbd5;
+  border-width: 3.1px;
+  border-radius: 20px;
+  color: #cfdbd5;
+  display: inline-block;
+  text-align: center;
+  margin: 3%;
+}
+
+.topNavBar {
+  margin: 18px 10px 10px 10px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 2px;
+  position: absolute;
+}
+
+.mainContent {
+  margin-top: 5%;
+  padding: 4%;
+  font-family: 'Courier Prime', monospace;
+}
+
+.mainContent h1 {
+  color: #B9B9B9;
+  font-size: 1.5rem;
+}
+
+.mainContent h2 {
+  color: white;
+  font-size: 1rem;
+}
+
+.basicInfo {
+  height: 20vh;
+  margin-bottom: 5%;
+}
+
+.header h1 {
+  color: #CFDBD5;
+  font-size: 5rem;
+}
+
+.communityBox {
+  position: absolute;
+  height: 45vh;
+  width: 35vh;
+  background-color: #CFDBD5;
+  border-radius: 30px;
+}
+
+.communityCircle {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin: 50px auto 0 auto;
+}
+
+.bigBox {
+  position: relative;
+}
+
+.explorePage h2 {
+  font-size: 2.5rem !important;
+}
+
+.explorePage h3 {
+  font-size: 1rem !important;
+  color: #198D9B;
+}
+
+.communityText {
+  padding: 5% 2% 2% 2%;
+  text-align: center;
+}
+
+.profileInfo {
+  width: 60%;
+}
+
+.questionFormat {
+  position: relative;
+  margin: 0;
+  height: 60vh;
+  width: 50vw;
+  background-color: #242423;
+  border-radius: 3vw;
+}
+
+.theForm {
+  margin-left: 5vw;
+  padding: 2%;
+}
+
+.theButton {
+  position: absolute;
+  right: 5vw;
+  background-color: #B9B9B9;
+  border-radius: 3vw;
+}
+
+.inputFields {
+  background-color: #242423;
+  width: 90%;
+  outline: none;
+  border-width: 0;
+  color: #B9B9B9;
+}
+
+.questionhr1 {
+  position: absolute;
+  left: 6vw;
+  top: 16vh;
+  width: 75%;
+}
+
+.newbutton:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
